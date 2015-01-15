@@ -28,4 +28,5 @@
           :heading-anchors true
           :replacement-transformers (conj transformer-vector (partial rewrite-hrefs-transformer config)))))))
 
-(swap! markup-registry conj (markdown))
+(defn init []
+  (swap! markup-registry conj (markdown)))

@@ -1,1 +1,2 @@
-{:namespace cryogen-markdown.core}
+{:description "Markdown parser"
+ :init cryogen-markdown.core/init}
