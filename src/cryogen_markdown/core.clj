@@ -26,6 +26,7 @@
             (s/join "\n"))
           :reference-links? true
           :heading-anchors true
+          :footnotes? true
           :replacement-transformers (conj transformer-vector (partial rewrite-hrefs-transformer config)))))))
 
 (defn init []
