@@ -17,7 +17,7 @@
   []
   (reify Markup
     (dir [this] "md")
-    (ext [this] ".md")
+    (exts [this] #{".md"})
     (render-fn [this]
       (fn [rdr config]
         (md-to-html-string
