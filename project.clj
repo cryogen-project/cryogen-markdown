@@ -1,4 +1,4 @@
-(defproject cryogen-markdown "0.1.12"
+(defproject cryogen-markdown "0.1.13"
   :description "Markdown parser for Cryogen"
   :url "https://github.com/cryogen-project/cryogen-markdown"
   :license {:name "Eclipse Public License"
